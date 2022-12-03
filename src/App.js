@@ -4,7 +4,7 @@ import { useState } from "react";
 function User(props) {
   return <div className="square-style">{props.user.title}</div>;
 }
-
+//최신화
 function App() {
   const [users, setUsers] = useState([{ id: 1, title: "react를 배워봅시다" }]);
 
